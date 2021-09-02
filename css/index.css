@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.title {
+    color: black;
+    font-size: 150%;
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.table-content {
+    margin-top: 100px;
+    text-align: center;
+    display: block;
+}
+
+.content {
+    margin: 50px;
+}
+
+.orderbook,
+.staffcontact,
+.booktype,
+.bookinout,
+.stafflist,
+.inoutstock,
+.bookstorelist,
+.contact {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    color: black;
+    cursor: pointer;
+    font-size: 200%;
+    text-decoration: none;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    padding: 10px 7px;
+    text-align: center;
+    transition: all .3s;
+    width: 130px;
+}
+
+.orderbook:hover,
+.orderbook:active,
+.staffcontact:hover,
+.staffcontact:active,
+.booktype:hover,
+.booktype:active,
+.bookinout:hover,
+.bookinout:active,
+.stafflist:hover,
+.stafflist:active,
+.inoutstock:hover,
+.inoutstock:active,
+.bookstorelist:hover,
+.bookstorelist:active,
+.contact:hover,
+.contact:active {
+    background-color: #9e9e9e;
+}
