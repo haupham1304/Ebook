@@ -32,12 +32,13 @@ require_once ('dbhelp.php');
 						<tr>
 							<th>ID</th>
 							<th>Full name</th>
-							<th>Address</th>
-							<th>Email</th>
-                            <th>Phone number</th>
-                            <th>User name</th>
-                            <th>Password</th>
-                            <th>Store ID</th>
+							<th>Time</th>
+							<th>Store address</th>
+                            <th>Name of book</th>
+                            <th>Book ID</th>
+                            <th>Amount of book</th>
+                            <th>Book price</th>
+							<th>Staff ID</th>
 							<th width="60px"></th>
 							<th width="60px"></th>
 						</tr>
